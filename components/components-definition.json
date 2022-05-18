@@ -2,7 +2,7 @@
     "name": "template_zero",
     "description": "Studio Digital Editor Poliedro Template Zero",
     "version": "1.8.0",
-    "defaultComponentOnEnter": "body",
+    "defaultComponentOnEnter": "css_02_texto_geral1",
 
     "components": [
 
