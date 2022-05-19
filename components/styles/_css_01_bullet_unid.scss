@@ -8,12 +8,12 @@
 
   /* Características do componente */
   display: block;
-  margin: 0px 28px 24px 0px;
+  margin-bottom: 0px 28px 24px 0px;
   line-height: 1.8em;
   border-left: solid 2px $branco;
   padding-left: 10px;
 
-    /* Características do bullet */
+  /* Características do bullet */
   &._right {
     float: right;
     clear: right;
