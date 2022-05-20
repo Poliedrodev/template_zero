@@ -1,0 +1,283 @@
+.css_06_boxe_em_lingua_portuguesa {
+    margin-top: 32px;
+
+    .collapsible-title {
+        margin: 0;
+    }
+
+    &.artes {
+        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #84A214;
+        }
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.biologia {
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #BD8432;
+        }
+
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_MT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.filosofia {
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #208F6D;
+        }
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.fisica {
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #BD8432;
+        }
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.geografia {
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #208F6D;
+        }
+
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.historia {
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #208F6D;
+        }
+
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.lingua_inglesa {
+        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #84A214 !important;
+        }
+
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.lingua_portuguesa {
+        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #84A214 !important;
+        }
+
+
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.matematica {
+        background: linear-gradient(180deg, rgba(250, 237, 188, 1) 25%, rgba(255, 255, 255, 1) 100%) !important;
+
+        .collapsible-title {
+            color: #C09100 !important;
+        }
+
+
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.producao_de_texto {
+        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #84A214;
+        }
+
+
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.quimica {
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #BD8432;
+        }
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_MT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &.sociologia {
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
+
+        .collapsible-title {
+            color: #208F6D;
+        }
+
+        .icon_boxe_em_lingua_portuguesa {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
+
+.css_06_boxe_em_lingua_portuguesa .text-credit {
+    padding: 0 !important;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.lbl-toggle-lingua_portuguesa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+
+}
+
+.toggle:checked+.lbl-toggle-lingua_portuguesa+.collapsible-content-em-lingua_portuguesa {
+    max-height: 90rem;
+}
+
+.toggle:checked+.lbl-toggle-lingua_portuguesa .ion-md-add {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle-lingua_portuguesa .ion-md-remove {
+    display: block;
+}
+
+.ion-md-remove {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle-lingua_portuguesa {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.collapsible-content-em-lingua_portuguesa .content-inner {
+    padding: 0 1rem;
+}
+
+.collapsible-content-em-lingua_portuguesa {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

@@ -1,19 +1,25 @@
 .secao_topo_creating_and_sharing {
+    margin-left: 10px;
     height: 32px;
     width: 80%;
-    margin: 40px 60px 0px 63px;
+    margin-top: 40px;
     padding: 0 0 0 38px;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: flex-start;
-    font-family: 'Barlow Condensed';
-    font-weight: 700;
-    font-size: 20px;
-    color: $ing_cor2;
     background-color: #edf8f7;
     border-right: 3px solid #ccebe9;
+    color: $ing_cor2;
+
+    & .titulo_topo_creating_and_sharing {
+        font-family: $fontName;
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin: 0;
+    }
 }
+
 .icone_disciplina_ing_creating_topo {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_produzir_e_compartilhar.svg");
     width: 32px;
@@ -26,9 +32,9 @@
     position: absolute;
     left: -10px;
     top: -1px;
-    }
+}
 
-.alinhamento{
-        display: flex;
-        align-items: center;
-        }
+.alinhamento {
+    display: flex;
+    align-items: center;
+}
