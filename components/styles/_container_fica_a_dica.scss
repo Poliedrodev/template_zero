@@ -14,7 +14,6 @@
         font-family: $fontName;
         font-size: 0.875rem;
         font-weight: 900;
-
     }
 
     &.artes {
@@ -33,7 +32,7 @@
             border: 8px solid #ECF0A6;
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
             display: inline-block;
         }
 
@@ -46,7 +45,7 @@
             border: 8px solid #ECF0A6;
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
         }
     }
 
@@ -67,7 +66,7 @@
             border: 8px solid #ECF0A6;
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
             display: inline-block;
         }
 
@@ -80,7 +79,7 @@
             border: 8px solid #ECF0A6;
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
         }
     }
 
@@ -101,7 +100,7 @@
             border: 8px solid #ECF0A6;
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
             display: inline-block;
         }
 
@@ -114,7 +113,7 @@
             border: 8px solid #ECF0A6;
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
         }
     }
 
@@ -135,7 +134,7 @@
 
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #FAEDBC 90deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #FAEDBC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
             display: inline-block;
         }
 
@@ -148,7 +147,7 @@
 
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #FAEDBC 180deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #FAEDBC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
         }
     }
 
