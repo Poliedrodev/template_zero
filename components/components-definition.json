@@ -825,6 +825,7 @@
             "properties": ["drop-capital", "style", "text-align", "letter-spacing", "line-height"],
             "countStatistics": true
         },
+
         {
             "name": "container",
             "icon": "icons/components/container.svg",
@@ -833,6 +834,34 @@
             "label": { "key": "COMPONENT_CONTAINER_LABEL" },
             "properties": ["style", "position", "background-color"]
         },
+
+        {
+            "name": "container_nivel1",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "container nivel 1",
+            "properties": ["style", "position", "background-color"]
+        },
+
+        {
+            "name": "container_nivel2",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "container nivel 2",
+            "properties": ["style", "position", "background-color"]
+        },
+
+        {
+            "name": "container_nivel3",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "container nivel 3",
+            "properties": ["style", "position", "background-color"]
+        },
+
         {
             "name": "product",
             "icon": "icons/components/product.svg",
@@ -1191,7 +1220,7 @@
         {
             "label": { "key": "GROUP_LAYOUT_LABEL" },
             "name": "layout",
-            "components": ["container"]
+            "components": ["container", "container_nivel1", "container_nivel2", "container_nivel3" ]
         }
     ],
 
