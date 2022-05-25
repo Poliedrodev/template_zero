@@ -863,6 +863,15 @@
         },
 
         {
+            "name": "container_questao",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "container questao",
+            "properties": ["style", "position", "background-color"]
+        },
+
+        {
             "name": "product",
             "icon": "icons/components/product.svg",
             "label": { "key": "COMPONENT_PRODUCT_LABEL" },
@@ -1219,8 +1228,8 @@
         },
         {
             "label": { "key": "GROUP_LAYOUT_LABEL" },
-            "name": "layout",
-            "components": ["container", "container_nivel1", "container_nivel2", "container_nivel3" ]
+            "name": "containers",
+            "components": ["container", "container_nivel1", "container_nivel2", "container_nivel3", "container_questao" ]
         }
     ],
 
