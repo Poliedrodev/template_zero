@@ -1281,6 +1281,54 @@
       ]
     },
     {
+      "name": "container_nivel1",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "container nivel 1",
+      "properties": [
+        "style",
+        "position",
+        "background-color"
+      ]
+    },
+    {
+      "name": "container_nivel2",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "container nivel 2",
+      "properties": [
+        "style",
+        "position",
+        "background-color"
+      ]
+    },
+    {
+      "name": "container_nivel3",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "container nivel 3",
+      "properties": [
+        "style",
+        "position",
+        "background-color"
+      ]
+    },
+    {
+      "name": "container_questao",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "container questao",
+      "properties": [
+        "style",
+        "position",
+        "background-color"
+      ]
+    },
+    {
       "name": "product",
       "icon": "icons/components/product.svg",
       "label": {
@@ -2575,7 +2623,11 @@
       },
       "name": "layout",
       "components": [
-        "container"
+        "container",
+        "container_nivel1",
+        "container_nivel2",
+        "container_nivel3",
+        "container_questao"
       ]
     }
   ],
