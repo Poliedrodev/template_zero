@@ -2417,6 +2417,45 @@
             "metadataField": "ContentMetaData/Description"
           },
           "stripStylingOnPaste": true
+        },
+        "credit": {
+          "autofill": {
+            "source": "image",
+            "metadataField": "ContentMetaData/Description"
+          },
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "image2",
+      "icon": "icons/components/image.svg",
+      "label": {
+        "key": "COMPONENT_IMAGE_LABEL"
+      },
+      "properties": [
+        "position",
+        "style",
+        "style_image",
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "caption": {
+          "autofill": {
+            "source": "image2",
+            "metadataField": "ContentMetaData/Description"
+          },
+          "stripStylingOnPaste": true
+        },
+        "credit": {
+          "autofill": {
+            "source": "image2",
+            "metadataField": "ContentMetaData/Description"
+          },
+          "stripStylingOnPaste": true
         }
       }
     },
@@ -3373,6 +3412,7 @@
       "name": "media",
       "components": [
         "image",
+        "image2",
         "embed",
         "product",
         "social-media",
@@ -3815,7 +3855,7 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "Língua Inglesa"
+                "0": "200"
               }
             },
             "value": "lingua_inglesa"
@@ -3837,6 +3877,41 @@
               }
             },
             "value": "matematica"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_image",
+      "label": {
+        "key": "PROPERTY_VARIANT_LABEL_IMAGE"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "100"
+              }
+            },
+            "value": "_100"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "200"
+              }
+            },
+            "value": "_200"
           }
         ]
       },
