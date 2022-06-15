@@ -3258,8 +3258,8 @@
       "label": "02 texto geral",
       "name": "02_texto_geral",
       "components": [
-        "css_02_texto_bullet2",
-        "css_02_texto_bullet2_item_texto",
+        "css_02_texto_bullet",
+        "css_02_texto_bullet_item_texto",
         "css_02_texto_citado_fonte",
         "css_02_texto_citado_titulo",
         "css_02_texto_citado",
