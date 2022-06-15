@@ -711,7 +711,50 @@
     {
       "name": "css_02_texto_bullet",
       "icon": "icons/components/icon_02_texto_bullet.svg",
-      "label": "02 Texto Bullet",
+      "label": "Container Lista Bullet",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_02_texto_bullet_itens": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Item Bullet",
+              "name": "Item Bullet",
+              "components": [
+                "css_02_texto_bullet_itens"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_02_texto_bullet_itens",
+      "icon": "icons/components/icon_02_texto_bullet.svg",
+      "label": "Item Bullet",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_02_texto_bullet_item_texto",
+      "icon": "icons/components/icon_02_texto_bullet.svg",
+      "label": "Texto Bullet",
       "properties": [
         "style",
         "text-align",
@@ -3215,7 +3258,8 @@
       "label": "02 texto geral",
       "name": "02_texto_geral",
       "components": [
-        "css_02_texto_bullet",
+        "css_02_texto_bullet2",
+        "css_02_texto_bullet2_item_texto",
         "css_02_texto_citado_fonte",
         "css_02_texto_citado_titulo",
         "css_02_texto_citado",
