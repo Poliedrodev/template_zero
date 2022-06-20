@@ -256,7 +256,7 @@
       "name": "container_grupo_checkbox",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": {
         "key": "COMPONENT_CHECKBOX_LABEL"
       },
@@ -294,7 +294,7 @@
       "name": "container_grupo_checkbox_lado_a_lado",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": {
         "key": "COMPONENT_CHECKBOX_SIDE_LABEL"
       },
@@ -994,9 +994,24 @@
       }
     },
     {
-      "name": "css_03_exercicio_alternativa",
-      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
-      "label": "03 Exercício Alternativa",
+      "name": "css_03_exercicio_container",
+      "icon": "icons/components/container.svg",
+      "label": "Exercício Container",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_03_exercicio_container_edit",
+      "icon": "icons/components/container.svg",
+      "label": "Editável Exercício Container",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -1004,7 +1019,257 @@
         "line-height"
       ],
       "directiveOptions": {
-        "text": {
+        "number_exercicio": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_alternativa_edit",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Editável Exercício Alternativa",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_03_alternativa_edit": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Alternativa Editável",
+              "name": "Alternativa Editável",
+              "components": [
+                "css_03_alternativa_edit"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_03_alternativa_edit",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Alternativa Editável",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "alternativa_text": {
+          "stripStylingOnPaste": true
+        },
+        "text_alternativa": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_alternativa",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Exercício Alternativa",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_03_alternativa": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Alternativa",
+              "name": "Alternativa",
+              "components": [
+                "css_03_alternativa"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_03_alternativa",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Alternativa",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text_alternativa": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_alternativa_assinalar",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Exercício Alternativa Assinalar",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_03_exercicio_alternativa_assinalar_itens": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Alternativa Assinalar",
+              "name": "Alternativa Assinalar",
+              "components": [
+                "css_03_exercicio_alternativa_assinalar_itens"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_alternativa_assinalar_itens",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Alternativa Assinalar",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text_item": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_continuacao",
+      "icon": "icons/components/icon_03_exercicio_continuacao.svg",
+      "label": "Exercício Continuação",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text_continuacao": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_enunciado",
+      "icon": "icons/components/icon_03_exercicio_enunciado.svg",
+      "label": "Exercício Enunciado",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text_enunciado": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_item_romano",
+      "icon": "icons/components/icon_03_exercicio_item_romano.svg",
+      "label": "Exercício Item Romano",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_03_exercicio_item_romano_itens": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Item",
+              "name": "Item",
+              "components": [
+                "css_03_exercicio_item_romano_itens"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_item_romano_itens",
+      "icon": "icons/components/icon_03_exercicio_item_romano.svg",
+      "label": "Item",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text_item": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_item",
+      "icon": "icons/components/icon_03_exercicio_item.svg",
+      "label": "Exercício Item",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_03_exercicio_itens": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Item",
+              "name": "Item",
+              "components": [
+                "css_03_exercicio_itens"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_itens",
+      "icon": "icons/components/icon_03_exercicio_item.svg",
+      "label": "Item",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text_item": {
           "stripStylingOnPaste": true
         }
       }
@@ -1058,73 +1323,9 @@
       }
     },
     {
-      "name": "css_03_exercicio_continuacao",
-      "icon": "icons/components/icon_03_exercicio_continuacao.svg",
-      "label": "03 Exercício Continuação",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
-    },
-    {
-      "name": "css_03_exercicio_enunciado",
-      "icon": "icons/components/icon_03_exercicio_enunciado.svg",
-      "label": "03 Exercício Enunciado",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
-    },
-    {
-      "name": "css_03_exercicio_item_romano",
-      "icon": "icons/components/icon_03_exercicio_item_romano.svg",
-      "label": "03 Exercício Item Romano",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
-    },
-    {
       "name": "css_03_exercicio_item_vf",
       "icon": "icons/components/icon_03_exercicio_item_romano.svg",
       "label": "03 Exercício Item VF",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
-    },
-    {
-      "name": "css_03_exercicio_item",
-      "icon": "icons/components/icon_03_exercicio_item.svg",
-      "label": "03 Exercício Item",
       "properties": [
         "style",
         "text-align",
@@ -2389,7 +2590,7 @@
       "name": "container",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": {
         "key": "COMPONENT_CONTAINER_LABEL"
       },
@@ -3055,7 +3256,7 @@
       "name": "background",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
         "style_lumen_mais"
@@ -3087,7 +3288,7 @@
       "name": "slideshow_2_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slideshow 2 Imagens",
       "properties": [
         "style_lumen_mais",
@@ -3115,7 +3316,7 @@
       "name": "slideshow_3_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slideshow 3 Imagens",
       "properties": [
         "style_lumen_mais",
@@ -3143,7 +3344,7 @@
       "name": "slideshow_4_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slideshow 4 Imagens",
       "properties": [
         "style_lumen_mais",
@@ -3279,15 +3480,19 @@
       "label": "03 exercicios",
       "name": "03_exercicios",
       "components": [
+        "css_03_exercicio_container",
+        "css_03_exercicio_container_edit",
+        "css_03_exercicio_enunciado",
+        "css_03_exercicio_continuacao",
+        "css_03_exercicio_alternativa_edit",
         "css_03_exercicio_alternativa",
+        "css_03_exercicio_alternativa_assinalar",
+        "css_03_exercicio_item_romano",
+        "css_03_exercicio_item",
         "css_03_exercicio_bullet",
         "css_03_exercicio_citado_titulo",
         "css_03_exercicio_citado",
-        "css_03_exercicio_continuacao",
-        "css_03_exercicio_enunciado",
-        "css_03_exercicio_item_romano",
         "css_03_exercicio_item_vf",
-        "css_03_exercicio_item",
         "css_03_exercicio_resolvido_bullet",
         "css_03_exercicio_resolvido_item",
         "css_03_exercicio_resolvido",
