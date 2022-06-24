@@ -2119,6 +2119,27 @@
       }
     },
     {
+      "name": "container_faixa",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "container faixa",
+      "properties": [
+        "style",
+        "position",
+        "background-color"
+      ]
+    },
+    {
+      "name": "faixa",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "faixa",
+      "properties": [
+        "style"
+      ]
+    },
+    {
       "name": "container_nivel1",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
@@ -3140,6 +3161,17 @@
           "withContent": "image"
         }
       }
+    },
+    {
+      "name": "container_mapa",
+      "icon": "icons/components/slideshow.svg",
+      "label": "Mapa",
+      "properties": [
+        "fitting",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
     }
   ],
   "groups": [
@@ -3165,8 +3197,8 @@
         "secao_topo_para_consolidar",
         "secao_topo_produzir_e_compartilhar",
         "secao_topo_quiz",
-        "container_fica_a_dica",
         "container_read_more",
+        "container_fica_a_dica",
         "container_repertorio_cultural",
         "container_saiba_mais"
       ]
@@ -3279,7 +3311,8 @@
         "css_05_legenda",
         "css_05_linha_exercicio",
         "css_05_mapa_titulo",
-        "css_05_nota_rodape"
+        "css_05_nota_rodape",
+        "container_mapa"
       ]
     },
     {
@@ -3433,7 +3466,9 @@
         "container_nivel1",
         "container_nivel2",
         "container_nivel3",
-        "container_questao"
+        "container_questao",
+        "container_faixa",
+        "faixa"
       ]
     }
   ],

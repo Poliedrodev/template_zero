@@ -1,7 +1,6 @@
 .CSSgal {
     position: relative;
     overflow: hidden;
-    height: 700px;
     width: 100%;
     border-radius: 7px;
     /* Or set a fixed height */
@@ -9,8 +8,14 @@
 
 /* carroussel */
 
+.flex-direction-collumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .CSSgal .carroussel-box {
-    height: 700px;
+    /*   height: 700px; */
     white-space: nowrap;
     font-size: 0;
     transition: 0.8s;
