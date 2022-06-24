@@ -175,6 +175,20 @@ $img-dir: 'img/';
 $max-width: 860px;
 $phone-max-width: 481px;
 
+// Question
+$fontSizeQuestion: 18px;
+$fontSizeIndiceQuestion: 18px;
+
+// tirando eslito padrão
+ol,
+ul,
+li,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 @mixin display-flex() {
     display: -webkit-flex;
