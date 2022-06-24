@@ -3146,6 +3146,146 @@
       }
     },
     {
+      "name": "slideshow_5_images",
+      "icon": "icons/components/slideshow.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "one-level",
+      "label": "Slideshow 5 Imagens",
+      "properties": [
+        "style_lumen_mais",
+        "position",
+        "background-color"
+      ],
+      "restrictChildren": {
+        "slideshow_img": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Imagens",
+              "name": "Imagens",
+              "components": [
+                "slideshow_img"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "slideshow_6_images",
+      "icon": "icons/components/slideshow.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "one-level",
+      "label": "Slideshow 6 Imagens",
+      "properties": [
+        "style_lumen_mais",
+        "position",
+        "background-color"
+      ],
+      "restrictChildren": {
+        "slideshow_img": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Imagens",
+              "name": "Imagens",
+              "components": [
+                "slideshow_img"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "slideshow_7_images",
+      "icon": "icons/components/slideshow.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "one-level",
+      "label": "Slideshow 7 Imagens",
+      "properties": [
+        "style_lumen_mais",
+        "position",
+        "background-color"
+      ],
+      "restrictChildren": {
+        "slideshow_img": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Imagens",
+              "name": "Imagens",
+              "components": [
+                "slideshow_img"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "slideshow_8_images",
+      "icon": "icons/components/slideshow.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "one-level",
+      "label": "Slideshow 8 Imagens",
+      "properties": [
+        "style_lumen_mais",
+        "position",
+        "background-color"
+      ],
+      "restrictChildren": {
+        "slideshow_img": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Imagens",
+              "name": "Imagens",
+              "components": [
+                "slideshow_img"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "slideshow_9_images",
+      "icon": "icons/components/slideshow.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "one-level",
+      "label": "Slideshow 9 Imagens",
+      "properties": [
+        "style_lumen_mais",
+        "position",
+        "background-color"
+      ],
+      "restrictChildren": {
+        "slideshow_img": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Imagens",
+              "name": "Imagens",
+              "components": [
+                "slideshow_img"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "name": "slideshow_img",
       "icon": "icons/components/slideshow.svg",
       "label": "Imagem",
