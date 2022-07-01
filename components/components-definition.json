@@ -1011,6 +1011,22 @@
       ]
     },
     {
+      "name": "99_bancoquestao",
+      "icon": "icons/components/icon_03_exercicio_enunciado.svg",
+      "label": "Metadado Questão",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "css_03_exercicio_container",
       "icon": "icons/components/container.svg",
       "label": "Exercício Container",
@@ -1182,7 +1198,8 @@
         "letter-spacing",
         "line-height"
       ]
-    },{
+    },
+    {
       "name": "css_03_exercicio_item",
       "icon": "icons/components/icon_03_exercicio_item.svg",
       "label": "Exercício Item",
@@ -1251,28 +1268,6 @@
       "name": "css_03_exercicio_item_romano_itens",
       "icon": "icons/components/icon_03_exercicio_item_romano.svg",
       "label": "Item",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
-      "name": "css_03_exercicio_enunciado",
-      "icon": "icons/components/icon_03_exercicio_enunciado.svg",
-      "label": "03 Exercício Enunciado",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
-      "name": "css_03_exercicio_continuacao",
-      "icon": "icons/components/icon_03_exercicio_continuacao.svg",
-      "label": "03 Exercício Continuação",
       "properties": [
         "style",
         "text-align",
@@ -3486,6 +3481,7 @@
       "label": "03 exercicios",
       "name": "03_exercicios",
       "components": [
+        "99_bancoquestao",
         "css_03_exercicio_container_edit",
         "css_03_exercicio_enunciado",
         "css_03_exercicio_continuacao",
