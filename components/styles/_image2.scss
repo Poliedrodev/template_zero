@@ -7,8 +7,17 @@
   flex-direction: column;
   width: 100%;
 
-  ._image{
+  ._image {
     width: 100%;
+  }
+
+  &._fit_content {
+    width: fit-content;
+  }
+
+  &._fit_content_margin_auto {
+    width: fit-content;
+    margin: auto;
   }
 
   .slider-subtitle {
@@ -188,7 +197,7 @@
     left: 0;
   }
 
-  @media only screen and (min-width: $phone-max-width) {
+  @media only screen and (max-width: $phone-max-width) {
 
     /* class styles for the position properties of the image component */
     &._left {

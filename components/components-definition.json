@@ -2657,6 +2657,7 @@
         "key": "COMPONENT_IMAGE2_LABEL"
       },
       "properties": [
+        "style_image_fit_content",
         "position",
         "width",
         "style",
@@ -4346,6 +4347,39 @@
               }
             },
             "value": "_200"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_image_fit_content",
+      "label": "Ajustar tamanho da imagem",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real"
+              }
+            },
+            "value": "_fit_content"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real ao meio"
+              }
+            },
+            "value": "_fit_content_margin_auto"
           }
         ]
       },
