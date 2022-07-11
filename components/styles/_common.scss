@@ -166,6 +166,7 @@ $seg_hum_cor4: #EEF7F3;
 
 /* Outros */
 $fontName: 'Montserrat';
+$fontPrincipal: 'Montserrat';
 $fonteSerifa: 'Noticia Text';
 $defaultFontSize: 14px;
 $defaultFontWeight: 300;
@@ -182,16 +183,13 @@ $fontSizeIndiceQuestion: 18px;
 // Remove default style
 ol,
 ul,
-li {
-  margin: 0;
-}
-
+li,
+blockquote,
 p,
 h1,
 h2,
 h3 {
   margin: 0;
-  padding: 0;
 }
 
 
@@ -408,6 +406,12 @@ span[data-text-edit-color] {
   }
 }
 
+span[style="text-decoration: line-through;"] {
+    font-family: 'MathSymbol_JSD' !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+  }
+  
 /**
  Additional styles for .social and .video components
  */
