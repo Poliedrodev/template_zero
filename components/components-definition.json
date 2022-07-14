@@ -3943,8 +3943,6 @@
         "css_03_2exercicio_item_romano",
         "css_03_2exercicio_item",
         "css_03_2exercicio_itens",
-        "css_03_exercicio_enunciado",
-        "css_03_exercicio_continuacao",
         "css_03_exercicio_alternativa_edit",
         "css_03_exercicio_alternativa",
         "css_03_exercicio_alternativa_assinalar",
@@ -4151,6 +4149,24 @@
     }
   ],
   "componentProperties": [
+    {
+      "name": "width",
+      "label": {
+        "key": "PROPERTY_IMAGE_HEIGHT_LABEL"
+      },
+      "control": {
+        "type": "text",
+        "pattern": "^(([+-]{0,1})([0-9]|[0-9][.][0-9]{1,}|[0-9]{2}|[0-9]{2}[.][0-9]{1,}|[1-4][0-9]{0,2}|[1-4][0-9]{0,2}[.][0-9]{1,}|(500))|auto)$",
+        "defaultValue": "",
+        "unit": "px",
+        "inputPlaceholder": {
+          "key": "PROPERTY_AUTO_NUMBER_PLACEHOLDER"
+        }
+      },
+      "selector": "[img-width]",
+      "dataType": "inlineStyles",
+      "featureFlag": "ContentStation-LocalStyleOverrides"
+    },
     {
       "name": "position",
       "label": {
