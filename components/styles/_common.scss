@@ -210,7 +210,6 @@ h3 {
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 
 /* Article view style */
-<<<<<<< HEAD
 .body-book,
 .body {
     padding: 0;
@@ -223,41 +222,18 @@ h3 {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     -webkit-overflow-scrolling: touch;
-=======
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font: $defaultFontSize $fontName;
-  color: $textColor;
-  background-color: $bodyBackground;
-  font-weight: $defaultFontWeight;
-  word-wrap: break-word;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
-  -webkit-overflow-scrolling: touch;
->>>>>>> 82a31f7d14c4b4bdb0062feecd0f2fd960c71a54
 
   :focus {
     outline: none;
   }
 }
 
-<<<<<<< HEAD
 .body {
     max-width: $max-width;
     padding: 0 5px;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-=======
-body {
-  max-width: $max-width;
-  padding: 0 5px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow-x: hidden;
->>>>>>> 82a31f7d14c4b4bdb0062feecd0f2fd960c71a54
 
   &::after {
     content: ' ';
@@ -307,75 +283,8 @@ span[data-text-edit-color] {
 .hero-js {
   height: 100%;
 
-<<<<<<< HEAD
     .body {
         height: 100%;
-=======
-  body {
-    height: 100%;
-  }
-
-  ._hero-bg-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    pointer-events: none;
-    overflow: hidden;
-
-    ._hero-bg-item {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      opacity: 0;
-      transition-property: opacity;
-      transition-timing-function: linear;
-      transition-duration: $speed * 2;
-
-      &._current {
-        opacity: 1;
-      }
-    }
-  }
-
-  ._hero-content-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-
-    ._hero-content-wrapper {
-      background-color: $bodyBackground;
-
-      ._hero-content-body {
-        max-width: $max-width;
-        padding: 0 5px;
-        margin-left: auto;
-        margin-right: auto;
-        overflow-x: hidden;
-
-        &::after {
-          content: ' ';
-          display: block;
-          clear: both;
-        }
-      }
-    }
-  }
-
-  &.hero-js-android {
-    body {
-      max-width: none;
->>>>>>> 82a31f7d14c4b4bdb0062feecd0f2fd960c71a54
     }
 
     ._hero-bg-box {
@@ -383,7 +292,6 @@ span[data-text-edit-color] {
     }
 
     ._hero-content-box {
-<<<<<<< HEAD
         position: absolute;
         top: 0;
         right: 0;
@@ -428,17 +336,8 @@ span[data-text-edit-color] {
             bottom: auto;
             left: auto;
         }
-=======
-      position: relative;
-      margin: 0 -5px;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: auto;
->>>>>>> 82a31f7d14c4b4bdb0062feecd0f2fd960c71a54
     }
   }
-}
 
 // Keyframes, see mixin triple-blinking-spans()
 @keyframes kf-triple-blinking-spans {
