@@ -717,8 +717,8 @@
 
     {
       "name": "css_02_2texto_bullet",
-      "icon": "icons/components/icon_02_texto_bullet.svg",
-      "label": "container texto bullet",
+      "icon": "icons/components/container.svg",
+      "label": "texto bullet container",
       "properties": [
         "style",
         "text-align",
@@ -1141,7 +1141,7 @@
     {
       "name": "css_03_2exercicio_container_edit",
       "icon": "icons/components/container.svg",
-      "label": "Editável Exercício Container",
+      "label": "editável exercícios container",
       "selectionMethod": "handle",
       "allowNesting": "yes",
       "properties": [

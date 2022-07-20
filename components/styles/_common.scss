@@ -207,8 +207,8 @@ h1 {
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 
 /* Article view style */
-html,
-body {
+.body-book,
+.body {
     padding: 0;
     margin: 0;
     font: $defaultFontSize $fontName;
@@ -225,7 +225,7 @@ body {
     }
 }
 
-body {
+.body {
     max-width: $max-width;
     padding: 0 5px;
     margin-left: auto;
@@ -280,7 +280,7 @@ span[data-text-edit-color] {
 .hero-js {
     height: 100%;
 
-    body {
+    .body {
         height: 100%;
     }
 
@@ -325,7 +325,7 @@ span[data-text-edit-color] {
         ._hero-content-wrapper {
             background-color: $bodyBackground;
 
-            ._hero-content-body {
+            ._hero-content-.body {
                 max-width: $max-width;
                 padding: 0 5px;
                 margin-left: auto;
@@ -342,7 +342,7 @@ span[data-text-edit-color] {
     }
 
     &.hero-js-android {
-        body {
+        .body {
             max-width: none;
         }
 
