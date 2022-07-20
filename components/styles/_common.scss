@@ -180,25 +180,28 @@ $phone-max-width: 481px;
 $fontSizeQuestion: 18px;
 $fontSizeIndiceQuestion: 18px;
 
-// tirando eslito padrão
+// Remove default style
 ol,
 ul,
 li,
 blockquote,
 p,
-h1 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
+
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 @mixin display-flex() {
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-flex;
+  display: flex;
 }
 
 @mixin webkit-prefix($property, $value) {
-    -webkit-#{$property}: $value;
-    #{$property}: $value;
+  -webkit-#{$property}: $value;
+  #{$property}: $value;
 }
 
 /* Font embeds, examples see: https://www.google.com/fonts */
@@ -207,6 +210,7 @@ h1 {
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 
 /* Article view style */
+<<<<<<< HEAD
 .body-book,
 .body {
     padding: 0;
@@ -219,58 +223,81 @@ h1 {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     -webkit-overflow-scrolling: touch;
+=======
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: $defaultFontSize $fontName;
+  color: $textColor;
+  background-color: $bodyBackground;
+  font-weight: $defaultFontWeight;
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-overflow-scrolling: touch;
+>>>>>>> 82a31f7d14c4b4bdb0062feecd0f2fd960c71a54
 
-    :focus {
-        outline: none;
-    }
+  :focus {
+    outline: none;
+  }
 }
 
+<<<<<<< HEAD
 .body {
     max-width: $max-width;
     padding: 0 5px;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
+=======
+body {
+  max-width: $max-width;
+  padding: 0 5px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+>>>>>>> 82a31f7d14c4b4bdb0062feecd0f2fd960c71a54
 
-    &::after {
-        content: ' ';
-        display: block;
-        clear: both;
-    }
+  &::after {
+    content: ' ';
+    display: block;
+    clear: both;
+  }
 }
 
 /* Set link color */
 span[data-text-edit-color] {
-    a {
-        color: inherit;
-    }
+  a {
+    color: inherit;
+  }
 }
 
 /* Components style */
 /* Shared style for text related components: title, subtitle, intro, body and footer */
 .text {
-    display: block;
-    margin: 34px auto;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 0;
+  display: block;
+  margin: 34px auto;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
 }
 
 /* Implements text-align property values. */
 ._align-right {
-    text-align: right;
+  text-align: right;
 }
 
 ._align-middle {
-    text-align: center;
+  text-align: center;
 }
 
 /* media query */
 @media (max-width: $screen-sm-max) {
-    .text {
-        font-size: 17px;
-        line-height: 1.65;
-    }
+  .text {
+    font-size: 17px;
+    line-height: 1.65;
+  }
 }
 
 /* Woodwing Inception internal style.
@@ -278,42 +305,85 @@ span[data-text-edit-color] {
  * Please don't change this style class
  */
 .hero-js {
-    height: 100%;
+  height: 100%;
 
+<<<<<<< HEAD
     .body {
         height: 100%;
+=======
+  body {
+    height: 100%;
+  }
+
+  ._hero-bg-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+    ._hero-bg-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+      transition-property: opacity;
+      transition-timing-function: linear;
+      transition-duration: $speed * 2;
+
+      &._current {
+        opacity: 1;
+      }
+    }
+  }
+
+  ._hero-content-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    ._hero-content-wrapper {
+      background-color: $bodyBackground;
+
+      ._hero-content-body {
+        max-width: $max-width;
+        padding: 0 5px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+
+        &::after {
+          content: ' ';
+          display: block;
+          clear: both;
+        }
+      }
+    }
+  }
+
+  &.hero-js-android {
+    body {
+      max-width: none;
+>>>>>>> 82a31f7d14c4b4bdb0062feecd0f2fd960c71a54
     }
 
     ._hero-bg-box {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        pointer-events: none;
-        overflow: hidden;
-
-        ._hero-bg-item {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0;
-            transition-property: opacity;
-            transition-timing-function: linear;
-            transition-duration: $speed * 2;
-
-            &._current {
-                opacity: 1;
-            }
-        }
+      position: fixed;
     }
 
     ._hero-content-box {
+<<<<<<< HEAD
         position: absolute;
         top: 0;
         right: 0;
@@ -358,22 +428,31 @@ span[data-text-edit-color] {
             bottom: auto;
             left: auto;
         }
+=======
+      position: relative;
+      margin: 0 -5px;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+>>>>>>> 82a31f7d14c4b4bdb0062feecd0f2fd960c71a54
     }
+  }
 }
 
 // Keyframes, see mixin triple-blinking-spans()
 @keyframes kf-triple-blinking-spans {
-    0% {
-        opacity: 0.2;
-    }
+  0% {
+    opacity: 0.2;
+  }
 
-    20% {
-        opacity: 1;
-    }
+  20% {
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 0.2;
-    }
+  100% {
+    opacity: 0.2;
+  }
 }
 
 /**
@@ -386,21 +465,21 @@ span[data-text-edit-color] {
  */
 @mixin triple-blinking-spans() {
 
-    // blink the dots after the label
-    span {
-        animation-name: kf-triple-blinking-spans;
-        animation-duration: 1.4s;
-        animation-iteration-count: infinite;
-        animation-fill-mode: both;
-    }
+  // blink the dots after the label
+  span {
+    animation-name: kf-triple-blinking-spans;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
 
-    span:nth-child(2) {
-        animation-delay: 0.2s;
-    }
+  span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
 
-    span:nth-child(3) {
-        animation-delay: 0.4s;
-    }
+  span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
 }
 
 span[style="text-decoration: line-through;"] {
@@ -414,52 +493,52 @@ span[style="text-decoration: line-through;"] {
  */
 @mixin media-component-states() {
 
-    &.loading,
-    &.error {
-        font-weight: 300;
-        font-size: $defaultFontSize;
-        font-style: italic;
-        line-height: 1.6;
-        padding: 0.5em;
+  &.loading,
+  &.error {
+    font-weight: 300;
+    font-size: $defaultFontSize;
+    font-style: italic;
+    line-height: 1.6;
+    padding: 0.5em;
+  }
+
+  &.loading {
+    color: #888888;
+    background-color: rgb(252, 252, 252);
+    text-transform: lowercase;
+
+    @include triple-blinking-spans();
+
+    span {
+      padding-left: 0.2em;
+      font-weight: bold;
+      color: #666666;
     }
+  }
 
-    &.loading {
-        color: #888888;
-        background-color: rgb(252, 252, 252);
-        text-transform: lowercase;
+  &.error {
+    background-color: rgba(169, 68, 66, 0.05);
+    color: rgba(169, 68, 66, 0.8);
 
-        @include triple-blinking-spans();
+    >div {
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      align-items: center;
 
-        span {
-            padding-left: 0.2em;
-            font-weight: bold;
-            color: #666666;
-        }
+      div:first-child {
+        display: inline-block;
+        flex: 1 auto;
+        color: rgba(169, 68, 66, 0.5);
+        // horizontally align and size the icon to equal the drop icon of the hero component
+        font-size: 30px;
+        padding: 0 40px 0 40px;
+      }
+
+      >div:last-child {
+        display: inline-block;
+        flex: 1 100%;
+      }
     }
-
-    &.error {
-        background-color: rgba(169, 68, 66, 0.05);
-        color: rgba(169, 68, 66, 0.8);
-
-        >div {
-            display: flex;
-            -webkit-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-            align-items: center;
-
-            div:first-child {
-                display: inline-block;
-                flex: 1 auto;
-                color: rgba(169, 68, 66, 0.5);
-                // horizontally align and size the icon to equal the drop icon of the hero component
-                font-size: 30px;
-                padding: 0 40px 0 40px;
-            }
-
-            >div:last-child {
-                display: inline-block;
-                flex: 1 100%;
-            }
-        }
-    }
+  }
 }
